@@ -1,0 +1,142 @@
+<html>
+<head><title></title>
+<link rel=stylesheet href="bootstrap.css">
+<link rel=stylesheet href="bootstrap.min.css">
+<script src="bootstrap.js"></script>
+<script src="bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<style>
+.border1{  border-color:blue;color: blue;}
+.border2{ border-color:;}
+.border3{ border-color:green;color: green;}
+.border4{ border-color:lightblue;color:lightblue; }
+.border5{ border-color:orange;color: orange;}
+.border6{ border-color:red;color: red;}
+.navbar-default {background-color:#0099ff;}
+
+
+
+</style>
+</head>
+<body>
+
+<div class="container">
+ <button type="button"  class="btn btn-default border1 ">primary</button>
+ <button type="button" class="btn btn-default border2  disabled ">Secondary</button>
+ <button type="button" class="btn btn-default border3">Success</button>
+ <button type="button" class="btn btn-default border4">Info</button>
+ <button type="button" class="btn btn-default border5">Warning</button>
+ <button type="button" class="btn btn-default border6">Danger</button>
+</div>
+<br><br>
+
+<div class="container">
+<button type="button" class="btn btn-primary btn-lg">Large button</button>
+<button type="button" class="btn btn-default btn-lg">Large button</button>
+</div><br><br>
+
+<div class="container">
+  <button type="button" class="btn btn-primary btn-xs">Small button</button>
+  <button type="button" class="btn btn-default btn-xs">Small button</button>
+</div><br><br>
+<div class="container">
+  <button type="button" class="btn btn-primary btn-sm btn-block">Block Level button</button>
+  <button type="button" class="btn btn-default btn-sm btn-block">Block Level button</button>
+</div>
+<br><br>
+<div class="container dropdown">
+ <button class="btn btn-danger dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Menu
+ <span class="caret"></span></button>
+
+ <ul class="dropdown-menu bg-outline danger ">
+   <li class="container "> Home</li>
+   <li class="container ">Bootstrap</li>
+   <li class="container ">jQuery</li>
+   <li class="container ">jQuery UI</li>
+   <li class="divider   " ></li>
+   <li class="container">PHP</li>
+ </ul>
+</div><br><br>
+<nav class="navbar navbar-default" class="container">
+<div class="container-fluid"></div>
+   <ul class="nav navbar-nav">
+     <li class="active"><a href="#">Home</a></li>
+     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"> <span class="nav-label">MENU</span> <span class="caret"></span></a>
+       <ul class="dropdown-menu multi-level">
+         <li><a href="#">MENU 2</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MENU 1</a>
+         <ul class="dropdown -submenu">
+           <li><a href="#">MENU 1.1</a></li>
+           <li><a href="#">MENU 1.2</a></li> </ul>
+           <ul class="dropdown-submenu">
+           </ul></ul></li>
+     </li>
+     <li><a href="#">SETTINGS</a></li>
+     <li><a href="#">CONTACT</a></li>
+   </ul>
+
+ </div>
+</nav><br><br><br>
+<div class="container">
+ <table class="table table-bordered table-condensed table-responsive ">
+   <thead>
+     <tr>
+       <th>Product ID</th>
+       <th>Product Name</th>
+       <th>Product Quality</th>
+       <th>Product Quantity</th>
+     </tr>
+   </thead>
+   <tbody>
+     <tr class="info">
+      <td>1</td>
+      <td>Wheat</td>
+      <td>Good</td>
+      <td>200 Bags</td>
+    </tr>
+    <tr class="danger">
+      <td>2</td>
+      <td>Rice</td>
+      <td>Good</td>
+      <td>250 Bags</td>
+    </tr>
+     <tr class="warning">
+      <td>3</td>
+      <td>Sugar</td>
+      <td>Good</td>
+      <td>200 Bags</td>
+    </tr>
+     <tr>
+      <td>3</td>
+      <td>Sugar</td>
+      <td>Good</td>
+      <td>200 Bags</td>
+    </tr>
+     <tr class="success">
+      <td>3</td>
+      <td>Sugar</td>
+      <td>Good</td>
+      <td>200 Bags</td>
+    </tr>
+   </tbody>
+ </table>
+</div>
+<br><br>
+
+<div class="container">
+  <span >email@example.com</span>
+ <input type="password"  id="pwd" placeholder="Password"  >
+ <button type="submit" class="btn btn-default btn-primary  ">Confirm identity</button>
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
